@@ -1,0 +1,303 @@
+* {
+     box-sizing: border-box;
+}
+body {
+     margin: auto 20px;
+}
+.boldi {
+     font-weight: bolder;
+}
+.logo {
+     color: rgba(71, 92, 70, 1);
+}
+.heading {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar {
+     margin: 0px;
+     padding: 0px;
+}
+.nav-link {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px;
+     padding: 0px;
+}
+.nav-link li {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+.nav-link a {
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: none;
+     display: inline-block;
+     padding: 8px 10px;
+     margin: 0px;
+     color: rgba(71, 92, 70, 1);
+}
+.line {
+     height: 2px;
+     width: 100%;
+     background: rgba(13, 69, 18, 1);
+     display: none;
+}
+.journey {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.begin {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nut {
+     max-width: 480px;
+     margin: auto;
+}
+.imag22 {
+     max-width: 480px;
+     margin: auto; 
+}
+.continue {
+     background: rgba(13, 69, 18, 1);
+     color: white;
+     text-transform: capitalize;
+     font-size: 1.75re;
+     border: none;
+     padding: 10px 14px;
+     font-weight: 400;
+     border-radius: 100px;
+     cursor: pointer;   
+}
+.rentnow {
+     background: rgba(13, 69, 18, 1);
+     color: white;
+     text-transform: capitalize;
+     font-size: 1.75re;
+     border: none;
+     padding: 10px 14px;
+     font-weight: 400;
+     border-radius: 100px;
+     cursor: pointer;
+}
+.rentPlace {
+     color: rgba(13, 69, 18, 1);
+     text-transform: capitalize;
+     font-size: 1.75re;
+     border: 1px solid rgba(13, 69, 18, 1);
+     padding: 10px 14px;
+     font-weight: 400;
+     border-radius: 100px; 
+     background: none; 
+     cursor: pointer;
+}
+h1 {
+     font-size: 5.9rem;
+     color: rgba(8, 92, 17, 0.91);
+     font-weight: 400;
+}
+h1, .description, .rent-btn {
+     margin: 6px;
+} 
+.description {
+     color: rgba(20, 30, 21, 1);
+     font-size: 1.5rem;
+     font-weight: 400;
+}
+.items {
+     height: 300px;
+     width: 300px;
+     background: rgba(13, 69, 18, 1);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+     padding: 10px;
+     border-radius: 30px;
+}
+.service {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+}
+.service-card {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+}
+.service-card {
+     margin: 30px auto;
+}
+h2 {
+     color: white;
+     font-weight: 700;
+     font-size: 2.75rem;
+     text-transform: capitalize;
+     margin: 0.5px auto;
+}
+.desc {
+     color: rgba(255, 255, 255, 0.69);
+     text-align: center;
+}
+.name {
+     font-size: 2.07rem;
+     color: rgba(38, 88, 42, 0.88);
+}
+.desc-test {
+     color: rgba(85, 85, 85, 1);
+     font-weight: 500;
+}
+.item-test {
+     height: 300px;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 10px 20px;
+     border: 6px solid rgba(13, 69, 18, 1);
+     border-radius: 10px 130px 10px 130px;
+}
+.testimonial {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+}
+.testimonial-head {
+     font-size: 5.9rem;
+     color: rgba(8, 92, 17, 0.91);
+     font-weight: 400;
+}
+footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 30px auto;
+}
+.links {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.links1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.links li {
+     list-style: none;
+     line-height: 180%;
+     color: rgba(85, 85, 85, 1);
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+h4 {
+     color: rgba(13, 69, 18, 1);
+     font-weight: 600;
+     font-size: 1.63rem;
+     margin: 2px auto;
+}
+.logo1 {
+     color: rgba(71, 92, 70, 1);
+}
+.desc1 {
+     color: rgba(85, 85, 85, 1);
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+
+
+
+/* meadia queres for small screen */
+@media screen and (max-width: 768px) {
+     .logo {
+          display: none;
+     }
+    .heading {
+     flex-flow: column wrap;
+     background: rgb(236, 235, 235);
+    }
+    .nav-link {
+     flex-flow: column wrap;
+    }
+    .nav-bar {
+     width: 100%;
+    }
+    li {
+     margin: 0px;
+     width: 100%;
+     text-align: center;
+    }
+    a {
+     color: white;
+    }
+    a:hover {
+     background: rgba(71, 92, 70, 1);
+     color: white;
+     text-align: center;
+     width: 100%;
+    }
+    .journey {
+     flex-flow: column wrap;
+     text-align: center;
+    }
+    .testimonial {
+     flex-flow: column wrap;
+     text-align: center;
+    }
+    footer {
+     flex-flow: column wrap;
+     gap: 10px;
+     margin: 20px auto;
+    }
+    .links li {
+     font-size: 1rem;
+    }
+    h4 {
+     font-size: 1.2rem;
+     text-align: center;
+    }
+    .begin{
+     flex-flow: column-reverse wrap;
+     text-align: center;
+     gap: 20px;
+    }
+    h1 {
+     font-size: 2.3rem;
+    }
+    .testimonial-head {
+     font-size: 2rem;
+    }
+    .description {
+     font-size: .8rem;
+     padding: 10px 0px;
+    }
+    .service {
+     flex-flow: column wrap;
+     text-align: center;
+     padding: 0px;
+     margin: 0px;
+    }
+    .service-card {
+     flex-flow: column wrap;
+     text-align: center;
+     gap: 20px;
+     width: 100%;
+    }
+    .desc1{
+    font-size: 1rem;
+    text-align: center;
+    }
+}
